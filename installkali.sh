@@ -4,7 +4,7 @@ g="\033[1;32m"
 r="\033[1;31m"
 b="\033[1;34m"
 w="\033[0m"
-echo -e $b">"$w" SIGIT - Simple information gathering toolkit"
+echo -e $b">"$w" infogather - Simple information gathering toolkit"
 echo -e $b">"$w" prepare for installing dependencies ..."
 sleep 3
 echo -e $b">"$w" installing package: "$g"libxml2"$w
@@ -20,5 +20,5 @@ pip3 install email-validator
 echo -e $b">"$w" installing modules: "$g"googlesearch-python"$w
 pip3 install googlesearch-python
 echo -e $b">"$w" successfully installing dependencies"
-sudo wget -q https://raw.githubusercontent.com/termuxhackers-id/SIGIT/main/sigit.py -O /usr/local/bin/sigit && sudo chmod +x /usr/local/bin/sigit
+sudo wget -q https://raw.githubusercontent.com/Mayankjangir101/Mayankjangir101/main/sigit.py -O /usr/local/bin/sigit && sudo chmod +x /usr/local/bin/sigit
 echo -e $b">"$w" use command "$g"sigit"$w" for start the console"
