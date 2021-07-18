@@ -1,6 +1,6 @@
-<img title="SIGIT" src="https://img.shields.io/badge/CODENAME%20-SIGIT-SCRIPT?colorA=grey&colorB=green&style=for-the-badge"> <img title="SIGIT" src="https://img.shields.io/badge/VERSION%20-1.0-SCRIPT?colorA=grey&colorB=green&style=for-the-badge"> 
+<img title="INFOGATHER" src="https://img.shields.io/badge/CODENAME%20-SIGIT-SCRIPT?colorA=grey&colorB=green&style=for-the-badge"> <img title="INFOGATHER" src="https://img.shields.io/badge/VERSION%20-1.0-SCRIPT?colorA=grey&colorB=green&style=for-the-badge"> 
 <img src="https://raw.githubusercontent.com/termuxhackers-id/SIGIT/main/src/Screenshot_2021-04-26_01-22-35.jpeg">
-SIGIT - Simple Information Gathering Toolkit
+INFOGATHER   - Simple Information Gathering Toolkit
 
 ### Features
 - ```userrecon```    - username reconnaissance
@@ -34,6 +34,5 @@ apt-get install wget && wget https://raw.githubusercontent.com/termuxhackers-id/
 | ------------  | ------------ |
 |![Index](https://raw.githubusercontent.com/termuxhackers-id/SIGIT/main/src/1.jpg)|![f](https://raw.githubusercontent.com/termuxhackers-id/SIGIT/main/src/2.jpg)|
 
-- <i>picture by [@androidmalware](https://instagram.com/androidmalware)</i>
-### Credits
-Copyright © 2021 by <a href="https://facebook.com/termuxhackers.id">@termuxhackers.id</a>
+
+
