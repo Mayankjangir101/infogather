@@ -1,8 +1,6 @@
 #! /usr/bin/env python3
-# Author by @termuxhackers.id
-# Support me with follow my facebook page https://fb.me/termuxhackers.id
-# Disclaimer: please dont re-edit or recode the original source code !
-# Last update: 21/04/2021 - version 1.0
+# Author by @mayankjangir101
+
 
 import os, re, sys, time, json, requests, textwrap, socket
 from email_validator import validate_email, EmailNotValidError
@@ -53,9 +51,9 @@ logo = f"""{b}
       !KKKKKKKKKKKqC;-               -;CqKKKKKKKKKKK!
       <KKKKKKKKkr,                       ,rSKKKKKKKK<
        -"v]qj;-                             -;jq]v"-
-                       {w}[ S.I.G.I.T ]{b}
+                       {w}[ INFOGANTER ]{b}
            {d}Simple Information Gathering Toolkit{w}
-               {d}Author by {w}{r}@Termuxhackers.id{w}"""
+               {d}Author by {w}{r}@mayankjangir101{w}"""
 
 def menu():
     os.system("clear")
