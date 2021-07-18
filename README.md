@@ -19,11 +19,11 @@ INFOGATHER   - Simple Information Gathering Toolkit
 ### Setup
 - Installation on termux
 ```bash
-pkg install wget && wget https://raw.githubusercontent.com/termuxhackers-id/SIGIT/main/install.sh && bash install.sh
+pkg install wget && wget https://raw.githubusercontent.com/Mayankjangir101/infogather/main/installkali.sh 
 ```
 - Installation on kali linux
 ```bash
-apt-get install wget && wget https://raw.githubusercontent.com/termuxhackers-id/SIGIT/main/installkali.sh && bash installkali.sh
+apt-get install wget && wget https://raw.githubusercontent.com/Mayankjangir101/infogather/main/installkali.sh && bash installkali.sh
 ```
 - Uninstallation
 - termux: ```rm -rf $PREFIX/bin/sigit```
