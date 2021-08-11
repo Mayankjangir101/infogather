@@ -4,16 +4,13 @@ INFOGATHER   - Simple Information Gathering Toolkit
 
 ### Features
 - ```userrecon```    - username reconnaissance
-- 
+ 
 - ```mailfinder``` - find email with specific name
-- 
+
 - ```phoneinfo``` - phone number information
-- 
+ 
 - ```whoislookup``` - identify who is on domain
-- 
-- 
-- 
-- 
+
 - ```iplocation``` - ip to location tracker
 
 ### Setup
