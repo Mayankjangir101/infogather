@@ -4,16 +4,16 @@ INFOGATHER   - Simple Information Gathering Toolkit
 
 ### Features
 - ```userrecon```    - username reconnaissance
-- ```facedumper```   - dump facebook information
+- 
 - ```mailfinder``` - find email with specific name
-- ```godorker``` - dorking with google search
+- 
 - ```phoneinfo``` - phone number information
-- ```dnslookup``` - domain name system lookup
+- 
 - ```whoislookup``` - identify who is on domain
-- ```sublookup``` - sub networking lookup
-- ```hostfinder``` - find host domain
-- ```dnsfinder``` - find host domain name system
-- ```riplookup``` - reverse ip lookup
+- 
+- 
+- 
+- 
 - ```iplocation``` - ip to location tracker
 
 ### Setup
@@ -29,10 +29,6 @@ apt-get install wget && wget https://raw.githubusercontent.com/Mayankjangir101/i
 - termux: ```rm -rf $PREFIX/bin/sigit```
 - kali  : ```rm -rf /usr/local/bin/sigit```
 
-### Tools Overview
-| Kali Linux | Termux Android	|
-| ------------  | ------------ |
-|![Index](https://raw.githubusercontent.com/termuxhackers-id/SIGIT/main/src/1.jpg)|![f](https://raw.githubusercontent.com/termuxhackers-id/SIGIT/main/src/2.jpg)|
 
 
 
