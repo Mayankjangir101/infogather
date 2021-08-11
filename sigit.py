@@ -62,17 +62,15 @@ def menu():
          {W}\033[2;30m Choose number or type exit for exiting {w}
     
         {w}{b}  01{w} Userrecon    {d} Username reconnaissance 
-        {w}{b}  02{w} Facedumper   {d} Dump facebook information
-        {w}{b}  03{w} Mailfinder   {d} Find email with name
-        {w}{b}  04{w} Godorker     {d} Dorking with google search
-        {w}{b}  05{w} Phoneinfo    {d} Phone number information
-        {w}{b}  06{w} DNSLookup    {d} Domain name system lookup
-        {w}{b}  07{w} Whoislookup  {d} Identify who is on domain
-        {w}{b}  08{w} Sublookup    {d} Subnetwork lookup
-        {w}{b}  09{w} Hostfinder   {d} Find host domain
-        {w}{b}  10{w} DNSfinder    {d} Find host domain name system
-        {w}{b}  11{w} RIPlookup    {d} Reverse IP lookup
-        {w}{b}  12{w} IPlocation   {d} IP to location tracker
+        
+        {w}{b}  02{w} Mailfinder   {d} Find email with name
+       
+        {w}{b}  03{w} Phoneinfo    {d} Phone number information
+       
+        {w}{b}  04{w} Whoislookup  {d} Identify who is on domain
+       
+        
+        {w}{b}  5{w} IPlocation   {d} IP to location tracker
         """)
     mainmenu()
 
@@ -83,17 +81,17 @@ def mainmenu():
             if int(len(cmd)) < 6:
                 if cmd in ("exit","Exit"): exit(r+space+"* Exiting !"+w)
                 elif cmd in ("1","01"): userrecon()
-                elif cmd in ("2","02"): fb.facedumper()
-                elif cmd in ("3","03"): mailfinder()
-                elif cmd in ("4","04"): godorker()
-                elif cmd in ("5","05"): phoneinfo()
-                elif cmd in ("6","06"): infoga("dnslookup")
-                elif cmd in ("7","07"): infoga("whois")
-                elif cmd in ("8","08"): infoga("subnetcalc")
-                elif cmd in ("9","09"): infoga("hostsearch")
-                elif cmd in ("10"): infoga("mtr")
-                elif cmd in ("11"): infoga("reverseiplookup")
-                elif cmd in ("12"): iplocation()
+                
+                elif cmd in ("2","02"): mailfinder()
+                
+                elif cmd in ("3","03"): phoneinfo()
+                
+                elif cmd in ("4","04"): infoga("whois")
+                
+                
+                
+                
+                elif cmd in ("5","05"): iplocation()
                 else: continue
             else: continue
         except KeyboardInterrupt:
