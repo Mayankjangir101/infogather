@@ -33,7 +33,7 @@ graph = "https://graph.facebook.com{}"
 headers = {"User-Agent":"Opera/9.80 (J2ME/MIDP; Opera Mini/9.80 (S60; SymbOS; Opera Mobi/23.334; U; id) Presto/2.5.25 Version/10.54"}
 logo = f"""{b}
                           _cyqyc_
-                      :>3qKKKKKKKq3>:
+                      :>MMMMAYANKKKK>:
                   ';CpKKKKKKKKKKKKKKKpC;'
               -"iPKKKKKKKKKKKKKKKKKKKKKKKPi"-
           `~v]KKKKKKKKKKKKKKKKKKKKKKKKKKKKKKK]v~`
